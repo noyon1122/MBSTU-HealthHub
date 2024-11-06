@@ -1,4 +1,4 @@
-import React from 'react'
+
 import group_profiles from '../assets/assets_frontend/group_profiles.jpg'
 import arrow_icon from '../assets/assets_frontend/arrow_icon.svg'
 import Banner from '../assets/assets_frontend/Banner.png'
@@ -13,7 +13,7 @@ const Header = () => {
                 <p>Simply browse through our extensive list of trusted doctors,<br className='hidden sm:block' /> 
                 schedule your appointment hassle-free.</p>
             </div>
-            <a className='flex gap-2 items-center bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-150 transition-all duration-300' href="#speciality">Book Appointment 
+            <a id="#speciality" className='flex gap-2 items-center bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-150 transition-all duration-300' href="#speciality">Book Appointment 
                 <img className='w-3' src={arrow_icon} alt="" />
             </a>
         </div>
